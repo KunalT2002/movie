@@ -1,0 +1,120 @@
+.dis{
+    height: 100vh;
+    width: 100%;
+    background: rgb(52, 53, 52);
+}
+nav{
+    background: rgb(192, 192, 193);
+    position: fixed;
+    top: 0px;
+}
+input{
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.inp{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sugg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#sug{
+    height: 450px;
+    width: 300px;
+    position: absolute;
+    top: 173px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    z-index: 1;
+}
+.sg{
+    border-radius: 12px;
+    height: 100px;
+    width: 300px;
+    background: rgb(138, 138, 137);
+    color: black;
+    font-weight: bolder;
+    border: 3px solid rgb(9, 9, 8);
+}
+.sg img{
+    height: 80px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    border-radius: 10px;
+}
+.sg .type,.sg .imdb{
+    display: none;
+}
+.sg .title{
+    height: 10px;
+    width: 190px;
+    position: relative;
+    top: -70px;
+    left: 100px;
+}
+.sg .year{
+    width: 30px;
+    position: relative;
+    top: -40px;
+    left: 100px;
+}
+.sg:hover{
+    background: rgb(38, 38, 58);
+    color: white;
+}
+.sc{
+    height: 470px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(121, 116, 116);
+}
+.sm{
+    height: 400px;
+    width: 700px;
+    color: white;
+    display: flex;
+    font-size: 30px;
+}
+.sm img{
+    height: 400px;
+    width: 300px;
+}
+.sm .title{
+    height: 20px;
+    width: 50%;
+    position: relative;
+    left: 50px;
+}
+
+.sm .imdb{
+    height: 20px;
+    position: relative;
+    top: 350px;
+    left: -240px;
+    
+}
+.sm .type{
+    height: 20px;
+    position: relative;
+    top: 200px;
+    left: -100px;
+}
+.sm .year{
+    height: 20px;
+    position: relative;
+    top: 270px;
+    left: -180px;
+}
+
